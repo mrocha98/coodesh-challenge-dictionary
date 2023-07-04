@@ -1,0 +1,38 @@
+name: dictionary
+description: A challenge by Coodesh
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  intl: ^0.18.0
+  flutter_modular: ^5.0.3
+  meta: ^1.9.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  very_good_analysis: ^5.0.0+1
+
+flutter:
+  uses-material-design: true
+  generate: true
+  fonts:
+    - family: Noto Sans
+      fonts:
+        - asset: assets/fonts/noto-sans-v28-latin_latin-ext-regular.ttf
+          style: normal
+          weight: 400
+        - asset: assets/fonts/noto-sans-v28-latin_latin-ext-700.ttf
+          style: normal
+          weight: 700
